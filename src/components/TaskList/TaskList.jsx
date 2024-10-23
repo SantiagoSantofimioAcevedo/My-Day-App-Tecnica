@@ -21,8 +21,8 @@ const TaskList = ({ filter }) => {
     <ul className="todo-list">
       {filteredTasks.map(task => (
         <TaskItem key={task.id} task={task} />
-      ))}
-    </ul>
+      ))} 
+      </ul>
   );
 };
 
