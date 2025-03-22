@@ -25,7 +25,7 @@ const TaskItem = ({ task }) => {
       setIsEditing(false);
     } else if (e.key === 'Escape') {
       setIsEditing(false);
-      setEditValue(task.title);  // Restablecer el título si se presiona Esc
+      setEditValue(task.title);
     }
   };
 
